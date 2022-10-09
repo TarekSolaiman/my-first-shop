@@ -19,6 +19,9 @@ const CartItem = ({ product }) => {
               <p className="text-sm dark:text-gray-400">
                 Quantity : {quantity}
               </p>
+              <p className="text-sm dark:text-gray-400">
+                Category : {category}
+              </p>
             </div>
             <div className="text-right">
               <p className="text-sm font-semibold">Price : $ {price}</p>
